@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "307170313535",
+    "firebase_url": "https://hope21-9a29e-default-rtdb.firebaseio.com",
+    "project_id": "hope21-9a29e",
+    "storage_bucket": "hope21-9a29e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307170313535:android:991268781174d3c830ff8a",
+        "android_client_info": {
+          "package_name": "com.example.hope_tr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307170313535-2jvl93fq65dh7b31gvdkvb0k0ep90uhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvfzWvnqSlnS0ygjhV4tY--jlJZvEvFLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307170313535-2jvl93fq65dh7b31gvdkvb0k0ep90uhp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "307170313535-hmf8rvv7b61ru312vvje7418caqii91u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hopeTr"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307170313535:android:0975d0535b777e0530ff8a",
+        "android_client_info": {
+          "package_name": "com.example.lost_and_found"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307170313535-2jvl93fq65dh7b31gvdkvb0k0ep90uhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvfzWvnqSlnS0ygjhV4tY--jlJZvEvFLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307170313535-2jvl93fq65dh7b31gvdkvb0k0ep90uhp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "307170313535-hmf8rvv7b61ru312vvje7418caqii91u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hopeTr"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
