@@ -4,6 +4,7 @@ import 'dart:async';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 import 'package:lost_and_found/src/utils/app_colors.dart';
 import 'package:lost_and_found/src/widget/objet_widget.dart';
 
@@ -67,6 +68,18 @@ class _SearchPageState extends State<SearchPage>
         backgroundColor: AppColors.primary,
         centerTitle: true,
         elevation: 0,
+        actions: [
+          CircleAvatar(
+            backgroundColor: Colors.white,
+            child: IconButton(
+                onPressed: (() async {
+                  final ImagePicker _picker = ImagePicker();
+                  final XFile? img =
+                      await _picker.pickImage(source: ImageSource.gallery);
+                }),
+                icon: const Icon(Icons.add_a_photo)),
+          )
+        ],
         title: TextField(
           onChanged: (value) => setState(() {}),
           controller: _searchController,
